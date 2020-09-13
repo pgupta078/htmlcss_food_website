@@ -1,0 +1,117 @@
+/* this will work with 480 and less then px screen */
+
+/* big tablet to 1200px  */
+@media only screen and (max-width: 1200px) {
+	.hero-text-box {
+		width: 100%;
+		padding: 0 2%;
+		/* left: 10%; */
+		/* translate - to translate the element half of its width */
+		transform: translate(-50%, -50%);
+	}
+
+	.row {
+		padding: 0 2%;
+	}
+}
+
+/* ipad in portrain mode  */
+@media only screen and (max-width: 1023px) {
+	body {
+		font-size: 18px;
+	}
+
+	section {
+		padding: 60px 0;
+	}
+
+	.btn-app {
+		display: inline-block;
+		margin-left: 20px;
+		/* padding-top: 10px; */
+		margin-top: 10px;
+		/* text-align: right; */
+	}
+
+	.btn-app {
+		display: inline-block;
+		margin-left: 10px;
+		/* padding-top: 10px; */
+		margin-top: 5px;
+		/* text-align: right; */
+	}
+
+	.btn-app img {
+		height: 20px;
+		width: auto;
+		margin-top: 5px;
+		margin-left: 10px;
+	}
+
+	.btn-app:link,
+	.btn-app:visited {
+		border: 0;
+	}
+}
+
+/* will be for browser width <=767 px */
+/* small phones to small tablet */
+@media only screen and (max-width: 767px) {
+	body {
+		font-size: 16px;
+	}
+
+	section {
+		padding: 30px 0;
+	}
+
+	.btn-app {
+		display: inline-block;
+		margin-left: 10px;
+		/* padding-top: 10px; */
+		margin-top: 5px;
+		/* text-align: right; */
+	}
+
+	.btn-app img {
+		height: 20px;
+		width: auto;
+		margin-top: 5px;
+		margin-left: 10px;
+	}
+
+	.btn-app:link,
+	.btn-app:visited {
+		border: 0;
+	}
+
+	.mobile-nav-icon {
+		float: right;
+		margin-top: 30px;
+		cursor: pointer;
+		font-size: 200%;
+	}
+}
+
+/* 0 to 480px phone  */
+@media only screen and (max-width: 480px) {
+	.btn-app {
+		display: inline-block;
+		margin-left: 10px;
+		/* padding-top: 10px; */
+		margin-top: 5px;
+		/* text-align: right; */
+	}
+
+	.btn-app img {
+		height: 20px;
+		width: auto;
+		margin-top: 5px;
+		margin-left: 10px;
+	}
+
+	.btn-app:link,
+	.btn-app:visited {
+		border: 0;
+	}
+}
